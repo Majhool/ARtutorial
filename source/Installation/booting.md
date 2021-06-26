@@ -32,7 +32,7 @@
 * CSM
 * Thunderbolt(لبداية التثبيت فقط, لان مداخل Thunderbolt قد يحدث مشاكل اذا لم يتم تجهيزه بشكل صحيح)
 * Intel SGX
-* Intel Platform Trust
+* Intel Platform Trust (PTT or TPM)
 * CFG Lock ( او MSR 0xE2 write protection)(**ضروري جدا ان يكون معطل بدونه قم  بتفعيل `AppleCpuPmCfgLock` و `AppleXcpmCfgLock` في Kernel -> Quirks. بدونهم لن يقلع النظام**)
 * Compatibility Support Module (CSM) (**يجب تعطيله على معالجات AMD**)
 
